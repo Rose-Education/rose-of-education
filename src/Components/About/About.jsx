@@ -11,7 +11,7 @@ const About = () => {
       text: "Have fun. Be of service. Make a positive difference.",
     },
     {
-      name: "Our vission",
+      name: "Our vision",
       text: "Everyone will GET to learn the fitness, physics and fun of the Dragon’s Fire Flying Games.",
     },
     {

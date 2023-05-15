@@ -21,7 +21,7 @@ const Nav = () => {
   const navData = [
     { name: "Home" },
     { name: "About" },
-    { name: "Donators" },
+    { name: "Donors" },
     { name: "Pricing" },
     { name: "Contact", path: "/contact us" },
   ];
