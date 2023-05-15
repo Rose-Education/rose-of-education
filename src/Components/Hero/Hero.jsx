@@ -17,16 +17,13 @@ const Hero = () => {
       <div className="max-w-4xl mt-24 gap-24 grid grid-cols-1 px-6 mx-auto md:grid-cols-2 md:h-[500px] xl:max-w-6xl xl:px-0">
         <div className="space-y-5 md:mt-8">
           <h2 className="font-semibold text-primaryDark text-3xl">
-            From Icarus to Iron Man 3, Flying, has been the fancy and fantasy of
-            humanity.
+          Quest for the REAAL Dragon's Fire Flying EGG.
           </h2>
           <p className="text-gray-600 font-[500] text-[18px]">
-            A dream many of us share and reinforced by depictions in popular
-            media of flying dragons, brooms and hover boards, super men and
-            women.
+          Hatching a New Generation of Fitter and Smarter Kids
           </p>
           <button className="bg-primaryColor p-2 px-10 text-white text-[500] font-semibold w-max rounded-full border border-primaryColor duration-500 hover:bg-transparent hover:text-primaryColor">
-            Join Us
+            Join the Quest
           </button>
 
           <div className="flex-row gap-3 !mt-12 hidden md:flex">

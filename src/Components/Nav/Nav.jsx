@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { RxCross1 } from "react-icons/rx";
 import { AiOutlineMenu } from "react-icons/ai";
 import { FaShopify } from "react-icons/fa";
-import logo from "../../Assets/logo.png";
 import { Link } from "react-router-dom";
+import logo2 from "../../Assets/logo2.png";
 
 const Nav = () => {
   const [active, setActive] = useState(false);
@@ -30,7 +30,7 @@ const Nav = () => {
     <nav className="z-50 sticky top-0 px-6">
       <div className="flex flex-row justify-between py-4 items-center max-w-4xl mx-auto xl:max-w-6xl xl:px-0">
         <Link to="/" className="text-sky-500">
-          <img src={logo} alt="" className="h-10 w-10 object-cover" />
+          <img src={logo2} alt="" className="h-16 w-16 object-contain" />
         </Link>
         <div
           className={`flex flex-col absolute bg-primaryBlue  top-0 duration-300 ${
