@@ -4,8 +4,8 @@ import {
   CiMobile1,
   CiTwitter,
   CiLinkedin,
-  CiFacebook,
   CiInstagram,
+  CiYoutube,
 } from "react-icons/ci";
 
 const Contact = () => {
@@ -19,12 +19,17 @@ const Contact = () => {
       icon: CiMail,
     },
     {
-      name: "+254 700 000 000",
+      name: "+1 (707) 646-1902",
       icon: CiMobile1,
     },
   ];
 
-  const socials = [CiLinkedin, CiFacebook, CiTwitter, CiInstagram];
+  const socials = [
+    { name: CiLinkedin, link: "https://www.linkedin.com/groups/3477989/" },
+    { name: CiYoutube, link: "https://www.youtube.com/@GrandpaSTORK" },
+    { name: CiTwitter, link: "https://twitter.com/iamonlyclay" },
+    { name: CiInstagram, link: "https://www.instagram.com/anthonyhall488/" },
+  ];
 
   return (
     <div className="mx-auto px-6 max-w-4xl md:max-w-6xl md:px-0">
@@ -44,13 +49,13 @@ const Contact = () => {
               ))}
             </div>
             <div className="mt-8 flex flex-row items-center justify-center gap-3 md:justify-start">
-              {socials.map((Social, i) => (
+              {socials.map((social, i) => (
                 <a
-                  href="#home"
+                  href={social.link}
                   className="flex flex-row items-center bg-white justify-center border h-7 w-7 rounded-full gap-3 opacity-80"
                   key={i}
                 >
-                  <Social className="text-lg text-[#234182]" />
+                  <social.name className="text-lg text-[#234182]" />
                 </a>
               ))}
             </div>

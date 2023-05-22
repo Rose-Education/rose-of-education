@@ -37,14 +37,14 @@ const Footer = () => {
             ))}
           </div>
 
-          <div className="space-y-2 hidden md:block">
+          {/* <div className="space-y-2 hidden md:block">
             <h2 className="font-semibold">Shop</h2>
             {["Place Order", "Offers"].map((item, i) => (
               <Link key={i} className="text-[14px] font-[400] block">
                 {item}
               </Link>
             ))}
-          </div>
+          </div> */}
           {/* end for desktop footer */}
 
 
@@ -72,14 +72,14 @@ const Footer = () => {
               )}
             </div>
 
-            <div className="space-y-2">
+            {/* <div className="space-y-2">
               <h2 className="font-semibold">Shop</h2>
               {["Place Order", "Offers"].map((item, i) => (
                 <Link key={i} className="text-[14px] font-[400] block">
                   {item}
                 </Link>
               ))}
-            </div>
+            </div> */}
           </div>
            {/* end for mobile footer */}
         </div>

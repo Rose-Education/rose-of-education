@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { RxCross1 } from "react-icons/rx";
 import { AiOutlineMenu } from "react-icons/ai";
-import { FaShopify } from "react-icons/fa";
+// import { FaShopify } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import logo2 from "../../Assets/logo2.png";
 
@@ -19,10 +19,9 @@ const Nav = () => {
   };
 
   const navData = [
-    { name: "Home" },
-    { name: "About" },
-    { name: "Donors" },
-    { name: "Pricing" },
+    { name: "TREO Presents" },
+    { name: "Grandpa STORK" },
+    { name: "HoFD" },
     { name: "Contact", path: "/contact us" },
   ];
 
@@ -30,7 +29,7 @@ const Nav = () => {
     <nav className="z-50 sticky top-0 px-6">
       <div className="flex flex-row justify-between py-4 items-center max-w-4xl mx-auto xl:max-w-6xl xl:px-0">
         <Link to="/" className="text-sky-500">
-          <img src={logo2} alt="" className="h-16 w-16 object-contain" />
+          <img src={logo2} alt="" className="h-8 w-16 object-contain" />
         </Link>
         <div
           className={`flex flex-col absolute bg-primaryBlue  top-0 duration-300 ${
@@ -53,11 +52,11 @@ const Nav = () => {
           ))}
         </div>
 
-        <div className="flex flex-row items-center space-x-5 text-primaryColor font-semibold">
+        {/* <div className="flex flex-row items-center space-x-5 text-primaryColor font-semibold">
           <Link to="/shop" className="bg-white border border-primaryColor shadow-2xl py-1.5 rounded-full px-5 flex flex-row items-center gap-2">
             <FaShopify /> Shop
           </Link>
-        </div>
+        </div> */}
 
         {/* {buttons for mobile navBar} */}
         <div className="flex flex-row items-center space-x-3 md:hidden">

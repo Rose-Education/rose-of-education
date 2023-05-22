@@ -16,9 +16,9 @@ body{
   box-sizing: border-box;
 }
 
-.drop{
+/* .drop{
   backdrop-filter: blur(24px);
-}
+} */
 
 footer{
   padding: 2rem 0 1rem;

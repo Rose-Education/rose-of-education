@@ -1,58 +1,83 @@
-import image1 from "../../Assets/story/story1.jpg";
-import image2 from "../../Assets/story/story2.jpg";
-import image3 from "../../Assets/story/story3.jpg";
-import image4 from "../../Assets/story/story4.jpg";
-import image5 from "../../Assets/story/story5.jpg";
+// import image1 from "../../Assets/story/story1.jpg";
+// import image2 from "../../Assets/story/story2.jpg";
+// import image3 from "../../Assets/story/story3.jpg";
+// import image4 from "../../Assets/story/story4.jpg";
+// import image5 from "../../Assets/story/story5.jpg";
+import { BsCheck2All } from "react-icons/bs";
 
 const Story = () => {
+  const ourValues = [
+    {
+      name: "Our mission",
+      text: "Increase fun. Increase literacy rates. Increase health, wellness and fitness",
+    },
+    {
+      name: "Our vision",
+      text: "Everyone will GET to learn the fitness, physics and fun of the Dragon’s Fire Flying Games.",
+    },
+  ];
+
   return (
     <div className="px-6 mx-auto max-w-4xl md:max-w-6xl">
       <h2 className="text-center text-primaryBlue font-bold text-4xl">
-        Read Our Story
+        Have You MET TREO?
       </h2>
       <div className="mt-8 relative">
-        <div className="grid grid-cols-1 gap-3 md:gap-16 md:grid-cols-2">
-          <div className="space-y-3">
-            <p>
-              <span className="font-bold">TREO</span> is a company that is
-              dedicated to increasing fun. They are creating a suite of video
-              and virtual reality games called{" "}
-              <span className="font-bold">Dragon's Fire Flying Games</span>,
-              which simulate the experience of flying like various popular
-              characters.
-            </p>
-            <p>
-              To achieve this, they have modified the Nintendo Wii Balance Board
-              concept, where players take off by lifting their heels and
-              balancing on the game platform and console.{" "}
-              <span className="italic">
-                The game uses sensors to transmit data on the player's foot and
-                body positions, weight distribution, and transfer, which are
-                then represented in the game as flying or falling.
-              </span>
-            </p>
+        <div className="grid grid-cols-1 gap-10 md:grid-cols-2">
+          <div>
+            <div className="space-y-3">
+              <p>
+                The Rose of Education Organization{" "}
+                <span className="font-bold">TREO</span> is a Space Tourism
+                industry startup, developing operations in: Education,
+                Entertainment and Exploration
+              </p>
+            </div>
+            <div>
+              {ourValues.map((value, index) => (
+                <div className="flex flex-row items-center gap-4" key={index}>
+                  <BsCheck2All className="text-primaryColor text-xl" />
+                  <p className="flex-1">
+                    <span className="font-semibold text-primaryDark">
+                      {value.name}:{" "}
+                    </span>
+                    {value.text}
+                  </p>
+                </div>
+              ))}
+            </div>
+            <div className="space-y-8">
+              <div>
+                <p>
+                  From Icarus to Iron Man, Flying is the fancy and fantasy of
+                  humanity.
+                </p>
+                <p>
+                  So Grandpa STORK and TREO are developing the Dragon's Fire
+                  Flying EGG (Exercises, Games & Gear) to turn the World's
+                  fantasy of human-powered flight into a Virtual Reality.{" "}
+                </p>
+              </div>
+              <button className="bg-transparent p-2 px-10 text-primaryColor text-[500] font-semibold w-max rounded-full border border-primaryColor duration-500 hover:bg-primaryColor hover:text-white">
+                Join the Quest
+              </button>
+            </div>
           </div>
 
-          <div className="space-y-8">
-            <p>
-              <span className="font-bold">TREO</span>{" "}
-              <span className="italic">
-                is targeting the $102.9 Billion USD Video Gaming Market
-              </span>{" "}
-              and is seeking <span className="italic">$3.3 Million USD</span> in
-              two rounds to develop the Dragon's EGG prototype, launch a
-              crowdfunding campaign, and bring the product to market.{" "}
-              <span className="font-bold">TREO</span> has also developed direct
-              marketing, social media, partner, and joint-venture strategies to
-              promote and sell the game.
-            </p>
-            <button className="bg-transparent p-2 px-10 text-primaryColor text-[500] font-semibold w-max rounded-full border border-primaryColor duration-500 hover:bg-primaryColor hover:text-white">
-              Join Our Community
-            </button>
+          <div className="border rounded-xl overflow-hidden">
+          <iframe
+            width="100%"
+            height="350"
+            src="https://www.youtube.com/embed/QmHY7Mz3Ifs"
+            title="Dragon Flying #fitness game for Peak Performance while we age"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          />
           </div>
         </div>
 
-        <div className="grid grid-cols-2 mt-8 gap-3 md:grid-cols-5">
+        {/* <div className="grid grid-cols-2 mt-8 gap-3 md:grid-cols-5">
           {[image1, image2, image3, image4, image5].map((image, index) => (
             <div
               key={index}
@@ -65,7 +90,7 @@ const Story = () => {
               />
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </div>
   );
