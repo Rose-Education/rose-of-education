@@ -45,7 +45,7 @@ const Nav = () => {
               onClick={() => hideNavBar()}
               to={link.path}
               key={i}
-              className="font-[500] text-xl text-white md:text-primaryColor md:text-lg"
+              className="font-[500] text-xl text-white  md:text-lg"
             >
               {link.name}
             </Link>
