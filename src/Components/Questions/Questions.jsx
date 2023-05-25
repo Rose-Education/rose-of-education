@@ -5,15 +5,15 @@ const Questions = () => {
     {
       question: "What is TREO?",
       answer:
-        "TREO is a company that is dedicated to increasing fun by creating video and virtual reality games.",
+        "TREO is a Space Tourism industry startup developing the games and sports humanity will play in Space.",
     },
     {
         question: "What are Dragon's Fire Flying Games?",
-        answer: "Dragon's Fire Flying Games is a suite of video and virtual reality games that simulate the experience of flying like popular characters such as Dragon, Iron Man, Silver Surfer, Superman, Harry Potter, or Marty McFly."
+        answer: "The Dragon's Fire Flying Games are a suite of Live Action (non-tech), interactive video and virtual reality games the player balances on a platform and performs moves to simulate the experience of flying on the back of a dragon, Iron Man, Silver Surfer, Harry Potter or Marty McFly."
     },
     {
         question: "How do the Dragon's Fire Flying Games work?",
-        answer: "The Dragon's Fire Flying Games use the Nintendo Wii Balance Board concept, where players take off by lifting their heels and balancing on the game platform and console. Sensors transmit data on the player's foot and body positions, weight distribution, and transfer, which are then represented in the game as flying or falling."
+        answer: "The vision for the Dragon's Fire Flying Games is that when a player mounts their dragon, sensors in the Dragon's EGG will collect data on the player's weight, weight distribution, weight transfer, foot placement, calories burned, energy produced, and transmit to game console or fitness app."
     },
     {
         question: "How much funding does TREO need to bring the Dragon's EGG to market?",

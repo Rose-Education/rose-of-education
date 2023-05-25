@@ -3,7 +3,7 @@ import { RxCross1 } from "react-icons/rx";
 import { AiOutlineMenu } from "react-icons/ai";
 // import { FaShopify } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import logo2 from "../../Assets/logo2.png";
+import logo2 from "../../Assets/logo.jpg";
 
 const Nav = () => {
   const [active, setActive] = useState(false);
@@ -19,9 +19,11 @@ const Nav = () => {
   };
 
   const navData = [
-    { name: "TREO Presents" },
-    { name: "Grandpa STORK" },
-    { name: "HoFD" },
+    { name: "Our Story", path: "/" },
+    { name: "HoFD", path: "/hofd" },
+    { name: "Dragons Egg", path: "/dragonsegg" },
+    { name: "REAAL", path: "/reaal" },
+    { name: "Grandpa STORK", path: "/stork" },
     { name: "Contact", path: "/contact us" },
   ];
 

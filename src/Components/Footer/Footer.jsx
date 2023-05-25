@@ -30,7 +30,7 @@ const Footer = () => {
 
           <div className="space-y-2 hidden md:block">
             <h2 className="font-semibold">Quick Links</h2>
-            {["Home", "About Us", "Services", "Team", "FAQ"].map((item, i) => (
+            {["Our Story", "HoFD", "Draggons Egg", "REAAL", "Gradpa STORK"].map((item, i) => (
               <Link key={i} className="text-[14px] font-[400] block">
                 {item}
               </Link>

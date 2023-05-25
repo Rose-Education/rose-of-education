@@ -9,18 +9,18 @@ const Story = () => {
   const ourValues = [
     {
       name: "Our mission",
-      text: "Increase fun. Increase literacy rates. Increase health, wellness and fitness",
+      text: "To hatch a new generation of fitter and smarter kid",
     },
     {
       name: "Our vision",
-      text: "Everyone will GET to learn the fitness, physics and fun of the Dragon’s Fire Flying Games.",
+      text: "TREO intends to become the leading developer of Games and Sports that humanity will play in Space",
     },
   ];
 
   return (
     <div className="px-6 mx-auto max-w-4xl md:max-w-6xl">
       <h2 className="text-center text-primaryBlue font-bold text-4xl">
-        Have You MET TREO?
+        Have You METT TREO?
       </h2>
       <div className="mt-8 relative">
         <div className="grid grid-cols-1 gap-10 md:grid-cols-2">
@@ -33,7 +33,7 @@ const Story = () => {
                 Entertainment and Exploration
               </p>
             </div>
-            <div>
+            <div className="my-8 space-y-4">
               {ourValues.map((value, index) => (
                 <div className="flex flex-row items-center gap-4" key={index}>
                   <BsCheck2All className="text-primaryColor text-xl" />

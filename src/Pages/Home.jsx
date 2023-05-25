@@ -9,9 +9,9 @@ const Home = () => {
   return (
     <div className="space-y-24 pb-24">
       <Hero />
-      <Client />
       <About />
       <Story />
+      <Client />
       <Questions />
       <Contact />
     </div>
