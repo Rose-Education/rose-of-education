@@ -81,13 +81,15 @@ const Footer = () => {
 
             <div className="space-y-2">
               <h2 className="font-semibold">Quick Links</h2>
-              {["Home", "About Us", "Services", "Team", "FAQ"].map(
-                (item, i) => (
-                  <Link key={i} className="text-[14px] font-[400] block">
-                    {item}
-                  </Link>
-                )
-              )}
+              {quickLinks.map((item, i) => (
+                <Link
+                  key={i}
+                  to={item.path}
+                  className="text-[14px] font-[400] block"
+                >
+                  {item.name}
+                </Link>
+              ))}
             </div>
           </div>
           {/* end for mobile footer */}
