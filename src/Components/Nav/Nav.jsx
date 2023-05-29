@@ -62,7 +62,7 @@ const Nav = () => {
 
         {/* {buttons for mobile navBar} */}
         <div className="flex flex-row items-center space-x-3 md:hidden">
-          <AiOutlineMenu className="text-2xl" onClick={() => setNavBar()} />
+          <AiOutlineMenu className="text-2xl !text-white" onClick={() => setNavBar()} />
         </div>
       </div>
     </nav>
