@@ -68,7 +68,7 @@ const Stork = () => {
         <Questions />
       </div>
 
-      <div className="max-w-4xl px-6 mx-auto my-16 xl:max-w-6xl xl:px-0">
+      <div className="max-w-4xl mx-auto my-16 xl:max-w-6xl xl:px-0">
         <Contact />
       </div>
     </div>

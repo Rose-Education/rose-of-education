@@ -11,7 +11,7 @@ import {
 const Contact = () => {
   const contacts = [
     {
-      name: "23 Avenue street name",
+      name: "USA",
       icon: CiLocationOn,
     },
     {

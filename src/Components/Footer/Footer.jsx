@@ -1,6 +1,23 @@
 import { Link } from "react-router-dom";
 import logo2 from "../../Assets/logo2.png";
+
 const Footer = () => {
+  const socials = [
+    { name: "LinkedIn", link: "https://www.linkedin.com/groups/3477989/" },
+    { name: "Youtube", link: "https://www.youtube.com/@GrandpaSTORK" },
+    { name: "Twitter", link: "https://twitter.com/iamonlyclay" },
+    { name: "Instagram", link: "https://www.instagram.com/anthonyhall488/" },
+  ];
+
+  const quickLinks = [
+    { name: "Our Story", path: "/" },
+    { name: "HoFD", path: "/hofd" },
+    { name: "Dragons Egg", path: "/dragonsegg" },
+    { name: "REAAL", path: "/reaal" },
+    { name: "Grandpa STORK", path: "/stork" },
+    { name: "Contact", path: "/contact us" },
+  ];
+
   return (
     <footer>
       <div className="mx-auto px-6 max-w-4xl space-y-5 xl:max-w-6xl xl:px-0">
@@ -21,44 +38,45 @@ const Footer = () => {
           {/* start for desktop footer */}
           <div className="space-y-2 hidden md:block">
             <h2 className="font-semibold">Community</h2>
-            {["Linkedin", "Facebook", "Twitter", "Instagram"].map((item, i) => (
-              <Link key={i} className="text-[14px] font-[400] block">
-                {item}
+            {socials.map((item, i) => (
+              <Link
+                key={i}
+                to={item.link}
+                className="text-[14px] font-[400] block"
+              >
+                {item.name}
               </Link>
             ))}
           </div>
 
           <div className="space-y-2 hidden md:block">
             <h2 className="font-semibold">Quick Links</h2>
-            {["Our Story", "HoFD", "Draggons Egg", "REAAL", "Gradpa STORK"].map((item, i) => (
-              <Link key={i} className="text-[14px] font-[400] block">
-                {item}
+            {quickLinks.map((item, i) => (
+              <Link
+                key={i}
+                to={item.path}
+                className="text-[14px] font-[400] block"
+              >
+                {item.name}
               </Link>
             ))}
           </div>
 
-          {/* <div className="space-y-2 hidden md:block">
-            <h2 className="font-semibold">Shop</h2>
-            {["Place Order", "Offers"].map((item, i) => (
-              <Link key={i} className="text-[14px] font-[400] block">
-                {item}
-              </Link>
-            ))}
-          </div> */}
           {/* end for desktop footer */}
-
 
           {/* start for mobile footer */}
           <div className="flex flex-row justify-between md:hidden">
             <div className="space-y-2">
               <h2 className="font-semibold">Community</h2>
-              {["Linkedin", "Facebook", "Twitter", "Instagram"].map(
-                (item, i) => (
-                  <Link key={i} className="text-[14px] font-[400] block">
-                    {item}
-                  </Link>
-                )
-              )}
+              {socials.map((item, i) => (
+                <Link
+                  key={i}
+                  to={item.link}
+                  className="text-[14px] font-[400] block"
+                >
+                  {item.name}
+                </Link>
+              ))}
             </div>
 
             <div className="space-y-2">
@@ -71,17 +89,8 @@ const Footer = () => {
                 )
               )}
             </div>
-
-            {/* <div className="space-y-2">
-              <h2 className="font-semibold">Shop</h2>
-              {["Place Order", "Offers"].map((item, i) => (
-                <Link key={i} className="text-[14px] font-[400] block">
-                  {item}
-                </Link>
-              ))}
-            </div> */}
           </div>
-           {/* end for mobile footer */}
+          {/* end for mobile footer */}
         </div>
 
         <div className="flex flex-col items-center justify-between border-t py-2 md:flex-row">

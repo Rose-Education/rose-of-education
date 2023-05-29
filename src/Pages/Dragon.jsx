@@ -35,7 +35,7 @@ const Dragon = () => {
 
       <div className="bg-primaryBlue py-16 md:py-48">
         <h2 className="text-center text-white font-bold text-4xl">
-        Hatching a new generation of fitter and smarter kid
+          Hatching a new generation of fitter and smarter kid
         </h2>
         <div className="max-w-4xl px-6 mx-auto xl:max-w-6xl xl:px-0">
           <div className="grid grid-cols-1 md:grid-cols-3 mt-8 gap-5">
@@ -59,7 +59,7 @@ const Dragon = () => {
         <Questions />
       </div>
 
-      <div className="max-w-4xl px-6 mx-auto my-16 xl:max-w-6xl xl:px-0">
+      <div className="max-w-4xl mx-auto my-16 xl:max-w-6xl xl:px-0">
         <Contact />
       </div>
     </div>

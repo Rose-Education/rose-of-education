@@ -1,8 +1,8 @@
 const About = () => {
   return (
-    <div className="bg-[#b62e31] py-16">
+    <div className="bg-[#b62e31] py-16" id="about">
       <div className="px-6 mx-auto max-w-4xl xl:max-w-6xl xl:px-0">
-        <h2 className="text-center text-primaryBlue font-bold text-4xl">
+        <h2 className="text-center text-white font-bold text-4xl">
           Our STORY
         </h2>
         <div className="mx-auto text-center mt-5 md:w-3/4">
@@ -27,9 +27,6 @@ const About = () => {
               So Grandpa STORK and TREO are developing Games to turn the World's
               fantasy of human-powered flight into a Virtual Reality.{" "}
             </p>
-            <button className="bg-white p-2 px-10 text-primaryColor text-[500] font-semibold w-max rounded-full border border-primaryColor duration-500 hover:bg-transparent hover:text-primaryColor">
-              Read more
-            </button>
           </div>
         </div>
       </div>
