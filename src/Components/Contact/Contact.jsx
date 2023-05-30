@@ -15,7 +15,7 @@ const Contact = () => {
       icon: CiLocationOn,
     },
     {
-      name: "info@rose-education.com",
+      name: "grandpastork@treo-inc.com",
       icon: CiMail,
     },
     {
@@ -69,7 +69,7 @@ const Contact = () => {
             </p>
           </div>
 
-          <form action="https://formsubmit.co/grandpastorks.hofd@gmail.com" className="space-y-3">
+          <form action="https://formsubmit.co/grandpastork@treo-inc.com" className="space-y-3">
             <label htmlFor="" className="font-semibold text-gray-700" method="POST">
               <input
                 type="text"
