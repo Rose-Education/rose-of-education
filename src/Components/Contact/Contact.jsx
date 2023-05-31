@@ -15,7 +15,7 @@ const Contact = () => {
       icon: CiLocationOn,
     },
     {
-      name: "info@rose-education.com",
+      name: "grandpastork@treo-inc.com",
       icon: CiMail,
     },
     {
@@ -69,18 +69,21 @@ const Contact = () => {
             </p>
           </div>
 
-          <form action="" className="space-y-3">
-            <label htmlFor="" className="font-semibold text-gray-700">
+          <form action="https://formsubmit.co/grandpastork@treo-inc.com" className="space-y-3">
+            <label htmlFor="" className="font-semibold text-gray-700" method="POST">
               <input
                 type="text"
                 required
+                name="name"
                 className="border-2 p-2 rounded bg-gray-100 w-full"
                 placeholder="Enter your full name"
               />
             </label>
             <label htmlFor="" className="font-semibold text-gray-700 block">
               <input
-                type="text"
+                type="email"
+name="email"
+
                 className="border-2 p-2 rounded- bg-gray-100 w-full"
                 required
                 placeholder="Enter your email address"
@@ -90,6 +93,9 @@ const Contact = () => {
               rows="4"
               className="border-2 p-2 rounded bg-gray-100 w-full outline-none"
               placeholder="Message"
+type="text"
+name="message"
+required
             />
             <input
               type="submit"
