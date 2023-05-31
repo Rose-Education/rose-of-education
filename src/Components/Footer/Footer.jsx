@@ -24,7 +24,7 @@ const Footer = () => {
         <div className="flex flex-col gap-5 justify-between md:flex-row">
           <div className="space-y-3 md:w-1/3 ">
             <Link to="/">
-              <img src={logo2} alt="" className="h-12" />
+              <img src={logo2} alt="logo of rose of education" className="h-12" />
             </Link>
             <p className="text-[12px] text-white">
               “Once upon a time in a garden of technology, there grew a rose of
