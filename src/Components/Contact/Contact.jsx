@@ -69,12 +69,17 @@ const Contact = () => {
             </p>
           </div>
 
-          <form action="https://formsubmit.co/grandpastork@treo-inc.com" className="space-y-3">
-            <label htmlFor="" className="font-semibold text-gray-700" method="POST">
+          <form
+            action="https://formsubmit.co/grandpastork@treo-inc.com"
+            className="space-y-3"
+            method="POST"
+          >
+            <label htmlFor="" className="font-semibold text-gray-700">
               <input
                 type="text"
                 required
                 name="name"
+                id="name"
                 className="border-2 p-2 rounded bg-gray-100 w-full"
                 placeholder="Enter your full name"
               />
@@ -82,8 +87,8 @@ const Contact = () => {
             <label htmlFor="" className="font-semibold text-gray-700 block">
               <input
                 type="email"
-name="email"
-
+                name="email"
+                id="email"
                 className="border-2 p-2 rounded- bg-gray-100 w-full"
                 required
                 placeholder="Enter your email address"
@@ -93,13 +98,15 @@ name="email"
               rows="4"
               className="border-2 p-2 rounded bg-gray-100 w-full outline-none"
               placeholder="Message"
-type="text"
-name="message"
-required
+              type="text"
+              name="comment"
+              id="comment"
+              required
             />
+            <input name="_formsubmit_id" type="text" className="hidden" />
             <input
               type="submit"
-              value="Send"
+              value="Submit"
               className="bg-primaryBlue text-white py-2 px-10 w-full font-semibold rounded-full md:w-max"
             />
           </form>
