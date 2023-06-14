@@ -8,11 +8,11 @@ import { BsCheck2All } from "react-icons/bs";
 const Story = () => {
   const ourValues = [
     {
-      name: "Our mission",
-      text: "To hatch a new generation of fitter and smarter kid",
+      name: "Our MISSION",
+      text: "To increase literacy, increase health, wellness and fitness, increase STEAM education, participation.",
     },
     {
-      name: "Our vision",
+      name: "Our VISION",
       text: "TREO intends to become the leading developer of Games and Sports that humanity will play in Space",
     },
   ];

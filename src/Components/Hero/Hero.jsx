@@ -11,7 +11,7 @@ const Hero = () => {
         <div className="max-w-4xl gap-24 px-6 mx-auto w-full h-screen overflow-hidden xl:max-w-6xl xl:px-0">
           <div className="space-y-5 min-w-full h-full flex flex-col items-center justify-center">
             <h2 className="font-bold text-white text-4xl text-center">
-              Treo Presents
+              TREO Presents
             </h2>
             <p className="text-white font-[500] text-2xl text-center md:w-1/2">
               Grandpa STORK's House of Flying Dragons Pop-Up Play-based Learning

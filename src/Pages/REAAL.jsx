@@ -23,7 +23,7 @@ const REAAL = () => {
               </p>
 
               <div className="grid grid-cols-1 md:grid-cols-2 mt-8 gap-5">
-                {["Treo of NAMES", "Treo of WORDS"].map((item, i) => (
+                {["TreE of NAMES", "TreE of WORDS"].map((item, i) => (
                   <div
                     className="py-4 px-24 bg-white text-primaryDark rounded-2xl"
                     key={i}

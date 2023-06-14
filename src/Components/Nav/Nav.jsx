@@ -21,7 +21,7 @@ const Nav = () => {
   const navData = [
     { name: "Our Story", path: "/" },
     { name: "HoFD", path: "/hofd" },
-    { name: "Dragons Egg", path: "/dragonsegg" },
+    { name: "Dragons EGG", path: "/dragonsegg" },
     { name: "REAAL", path: "/reaal" },
     { name: "Grandpa STORK", path: "/stork" },
     { name: "Contact", path: "/contact us" },
